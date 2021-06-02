@@ -11,6 +11,11 @@
 	margin-top: 25px;
 }
 
+.counter {
+	width: 100%;
+	text-align: center;
+}
+
 .btn {
 	margin: 0;
 	margin-left: 5px;
@@ -39,4 +44,8 @@
 
 .blue {
 	background: blue;
+}
+
+.grey {
+	background: grey;
 }

@@ -1,4 +1,4 @@
-const initialState = '';
+const initialState = 'grey';
 
 function reducer(state = initialState, action) {
 	switch (action.type) {

@@ -1,9 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import * as actions from './actions';
+import * as bgActions from '../redux/actions/bgActions';
 
-import './styles.css';
+import '../styles.css';
 
 function ColorChanger({ bg, red, green, blue, reset }) {
 
@@ -22,10 +22,10 @@ function ColorChanger({ bg, red, green, blue, reset }) {
 	)
 }
 
-const mapStateToProps = (state) => {
+const mapStateToProps = (store) => {
 	return {
-		bg: state,
+		bg: store.bgReducer,
 	};
 }
 
-export default connect(mapStateToProps, actions)(ColorChanger);
+export default connect(mapStateToProps, bgActions)(ColorChanger);
