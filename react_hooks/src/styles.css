@@ -1,3 +1,43 @@
 .app {
 	display: flex;
 }
+
+.color-block {
+	width: 100px;
+	height: 100px;
+	outline: 1px solid black;
+}
+
+.btn {
+	margin: 0;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.btn-wrapper {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.btn-orange {
+	background: orange;
+}
+
+.red {
+	background: red;
+}
+
+.green {
+	background: green;
+}
+
+.blue {
+	background: blue;
+}
+
+.grey {
+	background: grey;
+}
