@@ -3,7 +3,7 @@ import ColorBlocksUseState from './components/UseState/ColorBlocksUseState';
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       <UseState />
       <ColorBlocksUseState />
     </div>

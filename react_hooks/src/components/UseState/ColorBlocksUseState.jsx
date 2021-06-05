@@ -26,7 +26,7 @@ function ColorBlocksUseState() {
 	const className = 'color-block ';
 
 	return (
-		<div>
+		<div className='block'>
 			<div className={className + color} ></div>
 			<div className='btn-wrapper'>
 				<button onClick={redColored} className='btn' >--RED--</button>

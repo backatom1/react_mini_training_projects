@@ -2,6 +2,10 @@
 	display: flex;
 }
 
+.block {
+	margin-left: 15px;
+}
+
 .color-block {
 	width: 100px;
 	height: 100px;
