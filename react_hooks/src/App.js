@@ -1,11 +1,9 @@
-import UseState from "./components/UseState/UseState.jsx";
-import ColorBlocksUseState from './components/UseState/ColorBlocksUseState';
+import UseStateBlock from './components/UseState/UseStateBlock';
 
 function App() {
   return (
-    <div className='app'>
-      <UseState />
-      <ColorBlocksUseState />
+    <div>
+      <UseStateBlock />
     </div>
   );
 }
