@@ -8,7 +8,6 @@ import rootReducer from './redux/reducers';
 import App from './components/App.jsx';
 
 const store = createStore(rootReducer);
-console.log(store.getState());
 
 ReactDOM.render(
   <React.StrictMode>
