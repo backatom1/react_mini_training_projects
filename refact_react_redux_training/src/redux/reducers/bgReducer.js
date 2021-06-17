@@ -1,15 +1,29 @@
-const initialState = 'grey';
+const initialState = {
+	bgColor: 'grey'
+};
 
 function reducer(state = initialState, action) {
 	switch (action.type) {
 		case 'RED':
-			return state = 'red';
+			return {
+				...state,
+				bgColor: 'red'
+			};
 		case 'GREEN':
-			return state = 'green';
+			return {
+				...state,
+				bgColor: 'green'
+			};
 		case 'BLUE':
-			return state = 'blue';
+			return {
+				...state,
+				bgColor: 'blue'
+			};
 		case 'RESET':
-			return state = '';
+			return {
+				...state,
+				bgColor: 'reset'
+			};
 		default:
 			return state;
 	}
