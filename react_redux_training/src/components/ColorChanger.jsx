@@ -28,4 +28,16 @@ const mapStateToProps = (store) => {
 	};
 }
 
+/*
+const mapDispatchToProps = (dispatch) => {
+	return {
+		red: () => dispatch(red()),
+		green: () => dispatch(green()),
+		blue: () => dispatch(blue()),
+		reset: () => dispatch(reset())
+	}
+};
+*/
+// export default connect(mapStateToProps, mapDispatchToProps)(ColorChanger);
+
 export default connect(mapStateToProps, bgActions)(ColorChanger);
