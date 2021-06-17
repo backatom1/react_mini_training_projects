@@ -1,9 +1,19 @@
-export default function counterReducer(state = 0, action) {
+const initialState = {
+	count: 0
+};
+
+export default function counterReducer(state = initialState, action) {
 	switch (action.type) {
 		case 'INC':
-			return state + 1;
+			return {
+				...state,
+				count: state.count + 1
+			};
 		case 'DEC':
-			return state - 1;
+			return {
+				...state,
+				count: state.count - 1
+			};
 		default:
 			return state;
 	}
