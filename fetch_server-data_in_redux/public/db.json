@@ -1,0 +1,67 @@
+{
+	"products": [
+		{
+			"id": 0,
+			"imageURL": "https://w7.pngwing.com/pngs/159/512/png-transparent-close-up-of-red-tomato-plum-tomato-cherry-tomato-pizza-vegetable-tomato-slicer-tomato-natural-foods-food-tomato-thumbnail.png",
+			"name": "Помидоры",
+			"category": 0,
+			"price": 125
+		},
+		{
+			"id": 1,
+			"imageURL": "https://w7.pngwing.com/pngs/65/88/png-transparent-sliced-cucumber-juice-pickled-cucumber-vegetable-food-cut-cucumber-slices-natural-foods-tomato-eating-thumbnail.png",
+			"name": "Огурец",
+			"category": 0,
+			"price": 150
+		},
+		{
+			"id": 2,
+			"imageURL": "https://w7.pngwing.com/pngs/148/944/png-transparent-three-potatoes-potato-potato-s-s-fitness-food-fruit-thumbnail.png",
+			"name": "Картошка",
+			"category": 0,
+			"price": 69
+		},
+		{
+			"id": 3,
+			"imageURL": "https://w7.pngwing.com/pngs/332/204/png-transparent-banana-banana-natural-foods-food-fitness-thumbnail.png",
+			"name": "Бананы",
+			"category": 1,
+			"price": 125
+		},
+		{
+			"id": 4,
+			"imageURL": "https://w7.pngwing.com/pngs/1001/506/png-transparent-slices-of-oranges-orange-juice-flavor-fruit-nutritious-orange-natural-foods-food-orange-thumbnail.png",
+			"name": "Апельсин",
+			"category": 1,
+			"price": 250
+		},
+		{
+			"id": 5,
+			"imageURL": "https://w7.pngwing.com/pngs/899/52/png-transparent-salami-bratwurst-sausage-cervelat-mettwurst-sausage-food-animal-source-foods-charcuterie-thumbnail.png",
+			"name": "Колбаса",
+			"category": 2,
+			"price": 125
+		},
+		{
+			"id": 6,
+			"imageURL": "https://w7.pngwing.com/pngs/730/279/png-transparent-meatball-beef-ball-pork-ball-stuffing-hot-pot-meatballs-meatballs-soup-food-recipe-thumbnail.png",
+			"name": "Котлеты",
+			"category": 2,
+			"price": 125
+		},
+		{
+			"id": 7,
+			"imageURL": "https://w7.pngwing.com/pngs/497/643/png-transparent-on-a-milk-carton-on-a-milk-carton-food-milk-food-breakfast-logo-thumbnail.png",
+			"name": "Молоко",
+			"category": 3,
+			"price": 59
+		},
+		{
+			"id": 8,
+			"imageURL": "https://w7.pngwing.com/pngs/461/488/png-transparent-chocolate-milk-yogurt-berry-cream-fresh-strawberry-yogurt-packaging-natural-foods-food-strawberries-thumbnail.png",
+			"name": "Йогурт",
+			"category": 3,
+			"price": 45
+		}
+	]
+}
